@@ -1,6 +1,6 @@
 # ETL Weather Pipeline 🌧️
 
-[![ETL Pipeline Status](https://github.com/USERNAME/etl-weather/actions/workflows/etl.yml/badge.svg)](https://github.com/USERNAME/etl-weather/actions)
+[![ETL Pipeline Status](https://github.com/greenbird90/etl-weather/actions/workflows/etl.yml/badge.svg)](https://github.com/greenbird90/etl-weather/actions)
 
 Proyek ini adalah **ETL pipeline sederhana** yang mengambil data cuaca harian dari API publik [Open-Meteo](https://open-meteo.com/), lalu menyimpannya ke dalam file CSV. Pipeline ini dibuat dengan **Python** dan otomatis dijalankan setiap hari dengan **GitHub Actions**.
 
@@ -50,7 +50,7 @@ Mengambil data cuaca 7 hari ke belakang dari Open-Meteo API.
 
 ```bash
 # 1. Clone repo ini
-$ git clone https://github.com/USERNAME/etl-weather.git
+$ git clone https://github.com/greenbird90/etl-weather.git
 $ cd etl-weather
 
 # 2. Install dependencies
