@@ -75,8 +75,6 @@ ETL pipeline ini dijalankan otomatis setiap hari melalui GitHub Actions:
 
 ## 🗂️ Use Case
 
-- Menunjukkan skill Data Engineering: ETL, API, transformasi data
-- Cocok untuk portofolio GitHub
 - Bisa dikembangkan ke:
   - Load ke database (PostgreSQL)
   - Visualisasi pakai Streamlit atau Power BI
