@@ -26,8 +26,13 @@ jobs:
       - name: Run ETL script
         run: python scripts/run_etl.py
 
-      - name: Check current directory
+      - name: Check output
         run: |
-          echo "Current directory:"
+          echo "✅ Show working directory and files:"
           pwd
           ls -la
+          echo "✅ Isi folder data/"
+          ls -l data || echo "❌ Folder 'data/' tidak ditemukan"
+
+      - name: Show Python version
+        run: python --version
