@@ -25,3 +25,10 @@ jobs:
 
     - name: Run ETL script
       run: python scripts/run_etl.py
+
+    - name: Check current directory
+    run: |
+      echo "Current directory:"
+      pwd
+      ls -la
+
